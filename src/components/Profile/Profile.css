@@ -1,0 +1,23 @@
+.profile-container {
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: space-between;
+
+	padding: 1rem;
+
+	background: #ffffff;
+}
+
+.profile-container section {
+	margin: 1rem;
+}
+
+.profile-container h1 {
+	font-size: 1.5rem;
+}
+
+.profile-container p {
+	font-size: 1.3rem;
+}

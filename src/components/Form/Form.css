@@ -1,0 +1,61 @@
+.profile-details-form-container {
+	margin-top: 2rem;
+
+	display: flex;
+
+	flex-flow: column nowrap;
+}
+
+.profile-details-form-container input {
+	width: 100%;
+
+	height: 2rem;
+
+	padding: 0.5rem;
+
+	font-size: 1.3rem;
+}
+
+.profile-details-form-container label {
+	width: 100%;
+}
+
+.profile-details-form-container textarea {
+	width: 100%;
+
+	height: 5rem;
+
+	resize: none;
+
+	padding: 0.5rem;
+
+	font-size: 1.3rem;
+}
+
+input[type='submit'] {
+	border: none;
+
+	background: #7e7dd6;
+
+	color: #ffffff;
+
+	font-weight: 600;
+
+	width: 8rem;
+
+	border-radius: 0.2rem;
+
+	cursor: pointer;
+
+	font-size: 1rem;
+}
+
+.form-output {
+	margin-top: 1rem;
+
+	width: 40rem;
+
+	font-weight: 600;
+
+	font-size: 0.8rem;
+}

@@ -1,0 +1,75 @@
+header {
+	background: #ffffff;
+
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: space-between;
+
+	padding: 1rem;
+
+	border-bottom: 0.1rem solid rgb(234, 234, 234);
+}
+
+.page-title,
+.page-info {
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: center;
+
+	align-items: center;
+}
+
+.page-title h1 {
+	font-size: 2rem;
+}
+
+.page-info {
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: space-around;
+
+	max-width: 15rem;
+
+	width: 100%;
+}
+
+.page-info button {
+	border: none;
+
+	background: #7e7dd6;
+
+	color: #ffffff;
+
+	padding: 1rem;
+
+	border-radius: 0.5rem;
+
+	font-weight: 600;
+
+	cursor: pointer;
+}
+
+.secure,
+.notifications {
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: center;
+
+	align-items: center;
+
+	border: 0.2rem solid rgb(233, 233, 233);
+
+	padding: 0.5rem;
+
+	height: 2rem;
+
+	border-radius: 0.5rem;
+}

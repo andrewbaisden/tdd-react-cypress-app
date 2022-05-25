@@ -1,0 +1,100 @@
+aside {
+	background-color: rgba(255, 255, 255, 0.15);
+
+	backdrop-filter: blur(10px);
+
+	padding: 2rem;
+
+	width: 100%;
+
+	max-width: 16rem;
+
+	border-top-left-radius: 8px;
+
+	border-bottom-left-radius: 8px;
+
+	height: 43.4rem;
+}
+
+.profile-sidebar-container {
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: space-between;
+}
+
+.profile-image {
+	background: #7e7dd6;
+
+	border-radius: 100%;
+
+	padding: 1rem;
+
+	height: 2rem;
+}
+
+.profile-user p {
+	font-size: 1rem;
+}
+
+.profile-user h1 {
+	font-size: 1.6rem;
+}
+
+.settings {
+	display: flex;
+
+	flex-flow: row nowrap;
+
+	justify-content: center;
+
+	align-items: center;
+
+	background: #ffffff;
+
+	padding: 0.5rem;
+
+	height: 2rem;
+
+	width: 2rem;
+
+	border-radius: 0.5rem;
+
+	border: none;
+
+	cursor: pointer;
+}
+
+aside {
+	display: flex;
+
+	flex-flow: column nowrap;
+
+	justify-content: space-between;
+}
+
+aside nav,
+.support-log-out {
+	display: flex;
+
+	flex-flow: column nowrap;
+}
+
+aside nav a,
+.support-log-out a {
+	color: rgb(43, 43, 43);
+
+	text-decoration: none;
+
+	font-weight: 600;
+
+	padding: 0.4rem;
+
+	border-radius: 0.2rem;
+}
+
+aside nav a:hover,
+.support-log-out a:hover {
+	background-color: #ffffff;
+}
