@@ -1,5 +1,7 @@
 # TDD React Cypress App
 
+![Tdd React Cypress App](/img/tdd-react-cypress-app.png)
+
 ## Install and Setup
 
 1. Clone or download this repo.
